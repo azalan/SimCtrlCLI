@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52E6A301BABD9BB0045FD21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E52E6A2F1BABD9BB0045FD21 /* main.m */; };
+		E52E6A3A1BABDE180045FD21 /* RunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E52E6A391BABDE180045FD21 /* RunTests.m */; };
+		E52E6A521BAC7D9A0045FD21 /* FBSimulatorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E6A491BAC7D0E0045FD21 /* FBSimulatorControl.framework */; };
+		E52E6A5A1BAFFD630045FD21 /* NotificationWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = E52E6A591BAFFD630045FD21 /* NotificationWaiter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E52E6A481BAC7D0E0045FD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52E6A431BAC7D0D0045FD21 /* FBSimulatorControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1DD70E291A4B50E500000001;
+			remoteInfo = FBSimulatorControl;
+		};
+		E52E6A4A1BAC7D0E0045FD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52E6A431BAC7D0D0045FD21 /* FBSimulatorControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA819DB21B9FB40D002F58CA;
+			remoteInfo = FBSimulatorControlTests;
+		};
+		E52E6A541BAC7DB30045FD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52E6A431BAC7D0D0045FD21 /* FBSimulatorControl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E66DC04E390C419500000000;
+			remoteInfo = FBSimulatorControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E52E6A2C1BABD9BB0045FD21 /* DriveSimulators */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DriveSimulators; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52E6A2F1BABD9BB0045FD21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E52E6A381BABDE180045FD21 /* RunTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTests.h; sourceTree = "<group>"; };
+		E52E6A391BABDE180045FD21 /* RunTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTests.m; sourceTree = "<group>"; };
+		E52E6A431BAC7D0D0045FD21 /* FBSimulatorControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBSimulatorControl.xcodeproj; path = ../FBSimulatorControl/FBSimulatorControl.xcodeproj; sourceTree = "<group>"; };
+		E52E6A581BAFFD630045FD21 /* NotificationWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationWaiter.h; sourceTree = "<group>"; };
+		E52E6A591BAFFD630045FD21 /* NotificationWaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationWaiter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52E6A291BABD9BB0045FD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E6A521BAC7D9A0045FD21 /* FBSimulatorControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E52E6A231BABD9BB0045FD21 = {
+			isa = PBXGroup;
+			children = (
+				E52E6A431BAC7D0D0045FD21 /* FBSimulatorControl.xcodeproj */,
+				E52E6A2E1BABD9BB0045FD21 /* DriveSimulators */,
+				E52E6A2D1BABD9BB0045FD21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E52E6A2D1BABD9BB0045FD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52E6A2C1BABD9BB0045FD21 /* DriveSimulators */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E52E6A2E1BABD9BB0045FD21 /* DriveSimulators */ = {
+			isa = PBXGroup;
+			children = (
+				E52E6A2F1BABD9BB0045FD21 /* main.m */,
+				E52E6A381BABDE180045FD21 /* RunTests.h */,
+				E52E6A391BABDE180045FD21 /* RunTests.m */,
+				E52E6A581BAFFD630045FD21 /* NotificationWaiter.h */,
+				E52E6A591BAFFD630045FD21 /* NotificationWaiter.m */,
+			);
+			path = DriveSimulators;
+			sourceTree = "<group>";
+		};
+		E52E6A441BAC7D0D0045FD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52E6A491BAC7D0E0045FD21 /* FBSimulatorControl.framework */,
+				E52E6A4B1BAC7D0E0045FD21 /* FBSimulatorControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52E6A2B1BABD9BB0045FD21 /* DriveSimulators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52E6A331BABD9BB0045FD21 /* Build configuration list for PBXNativeTarget "DriveSimulators" */;
+			buildPhases = (
+				E52E6A281BABD9BB0045FD21 /* Sources */,
+				E52E6A291BABD9BB0045FD21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52E6A551BAC7DB30045FD21 /* PBXTargetDependency */,
+			);
+			name = DriveSimulators;
+			productName = DriveSimulators;
+			productReference = E52E6A2C1BABD9BB0045FD21 /* DriveSimulators */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52E6A241BABD9BB0045FD21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					E52E6A2B1BABD9BB0045FD21 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = E52E6A271BABD9BB0045FD21 /* Build configuration list for PBXProject "DriveSimulators" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E52E6A231BABD9BB0045FD21;
+			productRefGroup = E52E6A2D1BABD9BB0045FD21 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E52E6A441BAC7D0D0045FD21 /* Products */;
+					ProjectRef = E52E6A431BAC7D0D0045FD21 /* FBSimulatorControl.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E52E6A2B1BABD9BB0045FD21 /* DriveSimulators */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E52E6A491BAC7D0E0045FD21 /* FBSimulatorControl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSimulatorControl.framework;
+			remoteRef = E52E6A481BAC7D0E0045FD21 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E52E6A4B1BAC7D0E0045FD21 /* FBSimulatorControlTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FBSimulatorControlTests.xctest;
+			remoteRef = E52E6A4A1BAC7D0E0045FD21 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52E6A281BABD9BB0045FD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E6A301BABD9BB0045FD21 /* main.m in Sources */,
+				E52E6A3A1BABDE180045FD21 /* RunTests.m in Sources */,
+				E52E6A5A1BAFFD630045FD21 /* NotificationWaiter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52E6A551BAC7DB30045FD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSimulatorControl;
+			targetProxy = E52E6A541BAC7DB30045FD21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E52E6A311BABD9BB0045FD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E52E6A321BABD9BB0045FD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E52E6A341BABD9BB0045FD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/arpadzalan/dev/sim-ctrl",
+					"/Users/arpadzalan/dev/sim-ctrl/FBSimulatorControl/build",
+					"/Users/arpadzalan/dev/sim-ctrl/build/Mac",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E52E6A351BABD9BB0045FD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/arpadzalan/dev/sim-ctrl",
+					"/Users/arpadzalan/dev/sim-ctrl/FBSimulatorControl/build",
+					"/Users/arpadzalan/dev/sim-ctrl/build/Mac",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52E6A271BABD9BB0045FD21 /* Build configuration list for PBXProject "DriveSimulators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E6A311BABD9BB0045FD21 /* Debug */,
+				E52E6A321BABD9BB0045FD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52E6A331BABD9BB0045FD21 /* Build configuration list for PBXNativeTarget "DriveSimulators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E6A341BABD9BB0045FD21 /* Debug */,
+				E52E6A351BABD9BB0045FD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52E6A241BABD9BB0045FD21 /* Project object */;
+}
