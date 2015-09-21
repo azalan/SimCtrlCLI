@@ -11,6 +11,13 @@ After cloning the repository run [run.sh](https://github.com/azalan/SimCtrlCLI/b
 These are the following:
 
 1. Listening to the `FBSimulatorSessionApplicationProcessDidTerminateNotification` notification.
-1. Periodically checking the `session.state.runningApplications` list to see whether the app is still there
-1. Getting the process ID with `[session.state processForApplication:simulatorApplication].processIdentifier`  and setting up a termination listener with `[FBDispatchSourceNotifier processTerminationNotifierForProcessIdentifier:]`
-1. Periodically launching `ps` with the process ID to see whether the process is there (this works).
+2. Periodically checking the `session.state.runningApplications` list to see whether the app is still there
+3. Getting the process ID with `[session.state processForApplication:simulatorApplication].processIdentifier`  and setting up a termination listener with `[FBDispatchSourceNotifier processTerminationNotifierForProcessIdentifier:]`
+4. Periodically launching `ps` with the process ID to see whether the process is there (this works).
+
+All of these can be checked by invoking the app:
+```
+build/Mac/DriveSimulator `pwd`/build/iOS a_number_from_the_list_above
+```
+
+
